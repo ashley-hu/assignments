@@ -1,0 +1,98 @@
+<!-- This is am About me page that uses JQuery and custom Jquery code.-->
+
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> Ashley's Webpage </title>
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+      body{background-color: black;}
+    </style>
+  </head>
+
+  <body>
+    <h1> About Me </h1>
+
+    <h2 class="biblio"> Bibliography </h2>
+    <div id="clickme">
+      <span> Click Me </span>  <!-- Custom Jquery is attached. Image will show up -->
+    </div>
+      <div id="image">
+        <a href="https://en.wikipedia.org/wiki/Times_Square">
+          <img src="images/nyc.jpg" alt="Times Square" width="400" height="300"></a>
+      </div>
+    <br>
+      <button>Show More</button>  <!-- Custom Jquery is attached. Text will show up-->
+    <div class="more">
+      <p> I was born on Feburary 26, 1996. I am currently a sophomore at NYU!
+        I was born in New York. If you want any recommendations to food places, check
+        out my <a href="recommendations.html"> recommendations</a> page! (Click to show less!) </p>
+    </div>
+
+    <br>
+
+    <div id="hello">
+    <h2> Fun Facts (Click me!) </h2>  <!-- Custom Jquery is attached. List will show up-->
+  </div>
+    <p id="facts"> Here are some facts about me! </p>
+    <ul>
+      <li> I like playing rhythm games and computer games </li>
+      <li> I play the piano and violin </li>
+      <li> I have one older sibling </li>
+      <li> I have a pet turtle </li>
+      <li> I like sweets </li>
+    </ul>
+
+    <img src="images/music.png" alt="Music Score" width="400" height="300">
+
+    <br>
+    <br>
+
+    <!-- A table of the school and the amount of years -->
+    <table>
+      <tr>
+        <th>School</th>
+        <th>Graduation Year</th>
+        <th>Years Spent/Will Spend</th>
+      </tr>
+
+      <tr>
+        <td>P.S.205</td>
+        <td>2008</td>
+        <td>5</td>
+      </tr>
+
+      <tr>
+        <td>Mark Twain I.S.187</td>
+        <td>2011</td>
+        <td>3</td>
+      </tr>
+
+      <tr>
+        <td>Bronx High School of Science</td>
+        <td>2014</td>
+        <td>4</td>
+      </tr>
+
+      <tr>
+        <td>NYU</td>
+        <td>2018</td>
+        <td>4</td>
+      </tr>
+    </table>
+
+    <br>
+    <!-- Returns the page back to how it originally looked like -->
+    <button id="restart"> Restart Page </button>
+
+    <!-- JQuery script for the jquery functions to work -->
+    <script src="jquery-1.11.3.min.js"></script>
+    <!-- The cusomized jqeury necessary for some of the functions to work-->
+    <script src="custom-jquery.js"></script>
+    <!-- The script that displays clearer on retina screens --> 
+    <script src="retina.min.js"></script>
+
+  </body>
+
+</html>

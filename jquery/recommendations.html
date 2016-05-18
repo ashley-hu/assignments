@@ -1,0 +1,56 @@
+<!-- This is the recommended page that is linked from the About me page -->
+<!Doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title> My Recommendations </title>
+  <link rel="stylesheet" href="styles/main.css">
+
+  <style>
+    body{
+      background-color: #422828;
+    }
+  </style>
+</head>
+
+<body>
+  <h1> Recommendations </h1>
+    <div id="clickme">  <!-- Attached to custom-jquery that will show an image -->
+        <span>Click Me</span>
+    </div>
+      <img id="image" src="images/food.jpg" alt="Different foods" width="400" height="300">
+
+  <h2> Food Places </h2>
+    <ol>
+      <li> <a href=http://www.joeshanghairestaurants.com/> Joe's Shanghai </a>
+        <p> The soup dumplings here are the best, along with the other food they provide!
+         It has the taste of Shanghai and is extremely
+         popular with people all over the city! </p>
+         <!-- When hovering over image, the image will change -->
+        <img id="ima" src="images/soup_dumplings.jpg" alt="Soup dumplings" width="400" height="300">
+      </li>
+
+    <br>
+    <br>
+
+    <li> <a href=http://www.chelseamarket.com/index.php/Shops> Chelsea Market </a>
+      <p> There are many stores here and places where you can eat lobster, dessert,
+      bread, gelato, etc! Awesome place to come with friends and hang out. </p>
+    </li>
+  </ol>
+
+  <a href="index.html"> Return To Main </a>
+  <br><br>
+  <!-- Returns the page back to how it originally looked like -->
+  <button id="restart"> Restart Page </button>
+
+  <!-- JQuery script for the jquery functions to work -->
+    <script src="jquery-1.11.3.min.js"></script>
+        <!-- The cusomized jqeury necessary for some of the functions to work-->
+    <script src="custom-jquery.js"></script>
+        <!-- The script that displays clearer on retina screens --> 
+    <script src="retina.min.js"></script>
+</body>
+
+</html>
