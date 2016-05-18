@@ -1,0 +1,66 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 50px;
+  margin-bottom: 60px;
+}
+
+p{
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.pagination{
+  margin-top: 75px;
+}
+
+.navbar-inverse{
+  background-color: darkblue;
+}
+.nav-tabs{
+  border-bottom: none;
+}
+.navbar-inverse .nav-tabs>.active>a, .navbar-inverse .nav-tabs>.active>a:focus, .navbar-inverse .nav-tabs>.active>a:hover {
+    background-color: white;
+}
+
+.jumbotron{
+  margin-top:20px;
+}
+
+.btn{
+  text-transform: uppercase;
+  padding: 14px 24px;
+  letter-spacing: 1px;
+  border-radius:24px;
+  margin-top: 10px;
+}
+
+.btn-default{
+  background: #0099cc;
+    color: white;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default{
+    background: lightblue;
+}
+
+div.col-sm-6.col-md-7.col-lg-7 > img {
+  margin-top: 15px;
+}
+
+div.col-md-6 > img {
+  margin-bottom: 20px;
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
+
+.carousel-inner > .item > img {
+  min-width: 100%;
+  max-height:350px;
+}
