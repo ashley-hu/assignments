@@ -1,7 +1,0 @@
-Assignment: 
-This store was created with javascript. The requirements were to have two products, calculate the value of each item and output the total the user has to pay, and to make sure that that all the text fields are filled out without using the html tag "required". The user has to type a correct email address and phone number or an alert box will appear. I used regex to ensure the correct values were inputted. 
-
-When the user fills out the field, a receipt will be outputted in a new doucument within the same page. The credit card information will be masked except for the last 4 digits. 
-
-Extra: 
-I have also incorporated cookies to save user information which was not part of the original assignment. 
