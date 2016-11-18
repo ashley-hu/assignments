@@ -1,0 +1,6 @@
+This assignment is a store that is made with javascript. The requirements were to calculate each item's price and then the total value the user has to pay with or without shipping. The user needs to fill out all the fields in the form which is enforced by javascript and not the "required" tag in HTML. The email and address need to also be in a certain format to which I used regex to enforce the rule. 
+
+After the user enters all the information, a receipt will be printed out in a new document. The receipt will show all the information that the user has inputted as well as mask the credit card number and display only the last 4 digits.
+
+Extra (not required):
+I used cookies to save a user's information (full name, email, telephone, zipcode). If the user wants to reuse the information they entered, then they can. Otherwise, they can enter new information which will be stored as cookies. 
